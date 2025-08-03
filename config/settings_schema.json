@@ -1,0 +1,217 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "ModernShop",
+    "theme_version": "1.0.0",
+    "theme_author": "DoSaxam",
+    "theme_documentation_url": "https://github.com/DoSaxam/shopify-theme",
+    "theme_support_url": "https://github.com/DoSaxam/shopify-theme/issues"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Color Scheme"
+      },
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Primary Color",
+        "default": "#2563eb"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary",
+        "label": "Secondary Color",
+        "default": "#64748b"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Accent Color",
+        "default": "#f59e0b"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text Color",
+        "default": "#1f2937"
+      },
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Background Color",
+        "default": "#ffffff"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Font Settings"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_heading",
+        "label": "Heading Font",
+        "default": "assistant_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_body",
+        "label": "Body Font",
+        "default": "assistant_n4"
+      },
+      {
+        "type": "range",
+        "id": "font_size_base",
+        "label": "Base Font Size",
+        "min": 14,
+        "max": 20,
+        "step": 1,
+        "unit": "px",
+        "default": 16
+      }
+    ]
+  },
+  {
+    "name": "Layout",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Layout Options"
+      },
+      {
+        "type": "range",
+        "id": "container_width",
+        "label": "Container Max Width",
+        "min": 1200,
+        "max": 1800,
+        "step": 50,
+        "unit": "px",
+        "default": 1400
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sticky_header",
+        "label": "Enable Sticky Header",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "product_grid_columns",
+        "label": "Product Grid Columns",
+        "options": [
+          {"value": "2", "label": "2 columns"},
+          {"value": "3", "label": "3 columns"},
+          {"value": "4", "label": "4 columns"}
+        ],
+        "default": "3"
+      }
+    ]
+  },
+  {
+    "name": "Product",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Product Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_product_zoom",
+        "label": "Enable Product Image Zoom",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_product_reviews",
+        "label": "Enable Product Reviews",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_related_products",
+        "label": "Show Related Products",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "related_products_count",
+        "label": "Related Products Count",
+        "min": 2,
+        "max": 8,
+        "step": 1,
+        "default": 4
+      }
+    ]
+  },
+  {
+    "name": "Cart",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Cart Settings"
+      },
+      {
+        "type": "select",
+        "id": "cart_type",
+        "label": "Cart Type",
+        "options": [
+          {"value": "drawer", "label": "Drawer"},
+          {"value": "page", "label": "Page"}
+        ],
+        "default": "drawer"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_cart_notes",
+        "label": "Enable Cart Notes",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_shipping_calculator",
+        "label": "Enable Shipping Calculator",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Social Media Links"
+      },
+      {
+        "type": "url",
+        "id": "social_facebook",
+        "label": "Facebook URL"
+      },
+      {
+        "type": "url",
+        "id": "social_instagram",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "url",
+        "id": "social_twitter",
+        "label": "Twitter URL"
+      },
+      {
+        "type": "url",
+        "id": "social_youtube",
+        "label": "YouTube URL"
+      },
+      {
+        "type": "url",
+        "id": "social_tiktok",
+        "label": "TikTok URL"
+      }
+    ]
+  }
+]
